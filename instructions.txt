@@ -1,0 +1,22 @@
+Hello, mrBarmaley
+
+Let's do following tasks:
+1. Create hello world java application. GOAL: understand how the java applications can be run using IDE, start familiarizing with java packages. 
+  * Create HelloWorld.java file in org.mrbarmaley package. It will contain class with the same name as the filename. 
+      Main method inside it should write something to console using console output(System.out.println("blabllabla")).
+  * Fix errors until class is 
+  * Using some file explorer different from the one integrated in your IDE(eclipse?) browse inside your project on the filesystem and locate the .class file created by the IDE in the project related folders.  
+  * Commit this file to the github.
+  
+While making this task google and put here your answers(own understanding!!! no copy paste from the external sources):
+  What does compilation mean?
+  What is a purpose of packages in java?
+  What is special about the "main" method?
+  What is a difference between *.class and *.java files?
+  
+  
+I will put my comments/explanations based on what you will contribute to github. 
+The more you will work, the more I'll be able to help. Good luck!
+
+PS: feel free to add info here with partially found/understood answers.  
+  
