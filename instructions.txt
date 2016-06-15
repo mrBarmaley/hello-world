@@ -10,9 +10,18 @@ Let's do following tasks:
   
 While making this task google and put here your answers(own understanding!!! no copy paste from the external sources):
   What does compilation mean?
+   > in a few words, compilation - is translation of human language to computer language.
+   
   What is a purpose of packages in java?
+   > packages intended for cataloging classes. Packages allow you to better navigate in the project.
+   
   What is special about the "main" method?
+   > without using "main" method program it does not start. "main" method used as starting point to run application.
+   
   What is a difference between *.class and *.java files?
+   > * java file is the original file.
+     * class file is compiled file.
+     If i write code in Notepad and save with the extension java, i have to compile this file.
   
   
 I will put my comments/explanations based on what you will contribute to github. 
