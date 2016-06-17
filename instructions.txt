@@ -11,12 +11,15 @@ Let's do following tasks:
 While making this task google and put here your answers(own understanding!!! no copy paste from the external sources):
   What does compilation mean?
    > in a few words, compilation - is translation of human language to computer language.
+   [pa] good enough. In our case it's a process of transforming Java language to the bytecode - language understood by java virtual machine(here and after - JVM). Bytecode for JVM can be received not only from translation java file, but also from other languages e.g. Scala. 
    
   What is a purpose of packages in java?
    > packages intended for cataloging classes. Packages allow you to better navigate in the project.
+   [pa] As well it helps to avoid conflicts between classes you write and classes you import from the other projects. 
    
   What is special about the "main" method?
    > without using "main" method program it does not start. "main" method used as starting point to run application.
+   [pa] exactly. However there are cases when we work in so-called frameworks(like Spring) and we don't necessarily write our own main method. Still for our current purpose your answer is good enough. 
    
   What is a difference between *.class and *.java files?
    > * java file is the original file.
@@ -27,5 +30,27 @@ While making this task google and put here your answers(own understanding!!! no 
 I will put my comments/explanations based on what you will contribute to github. 
 The more you will work, the more I'll be able to help. Good luck!
 
-PS: feel free to add info here with partially found/understood answers.  
+PS: feel free to add info here with partially found/understood answers.
+_________________________________________________________________________________________________________
+[6/16/2016]
+1. Fix the project structure. At the moment your project hello-world is full of junk/unnecessary files. GOAL - get more experience with git, standardize project structure. Class files shouldn't be committed to the github. 
+  Project structure should be following: 3 folders in the root - lib, src, test. lib should contain 1 folder "junit" -place there junit jar file which you will download from the web. src folder should contain you java files which we would consider as a production code. test - here we'll place all the java code that I will call tests in a following tasks. 
+  Remove all the xml files from the github - there's no need to keep it here. Remove all unnecessary folders
+ 2. add additional package to your project - calculator and place there the class with calculator(IntegralCalculator) (in all cases when I say class I don't mean file with .class extension, I use this word in the java's meaning of the class). 
+ IntegralCalculator - contains 4 methods - add, divide, subtract and multiply. Also this class should contain constructor with no arguments which will just write a line to the console - Calculator Created. All of the calculation methods should return int value(for divide just use integral operations e.g. 5/2=2 17/3=5) (you can also add the main  method if you want to test how it works with it)
+ Add the test for this calculator which will separately test all the methods. Google on how to write junit testcases. 
+      
+
+
+What is jar file?
+What is junit framework? 
+What is class in java? 
+What is a return value of the methods in java? Provide examples of the method signatures which return different types. What does it mean if return type of the method is void?
+What is a difference between objects and primitive types in java? Name here all the primitive types. 
+What is constructor in java? 
+
+Good luck!
+_________________________________________________________________________________________________
+
+
   
