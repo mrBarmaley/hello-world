@@ -42,20 +42,43 @@ ________________________________________________________________________________
       
 
 What is object in java?
-What is method in java?
-What is a signature of the method?
-What is a method's body?
-What is a return value of the methods in java? Provide examples of the method signatures which return different types. What does it mean if return type of the method is void?
-What is class in java? 
-What is constructor in java? 
+> objects of the world around us in a software environment.
 
+What is method in java?
+> method describes the action. 
+for example, calculator: methods is addition, divide, subtract and multiply.
+
+What is a signature of the method?
+> signature is name&method parameters.
+
+What is a method's body?
+> In method body occurs method declaration. abstract method does not contain body.
+
+What is a return value of the methods in java?
+> after processing data, method can return data to output for further processing or other method.
+
+Provide examples of the method signatures which return different types.
+> Maybe i misunderstood your question, but docs.oracle.com says return types are not included in the method signature.
+
+What does it mean if return type of the method is void?
+>void method does not data return. if i need to data return, i must  declare return in code.
+
+What is class in java? 
+>in my understanding class, this is a set of drawings or a drawing which describes the action.
+
+What is constructor in java? 
+>Appointment constructor to create an object
 
 What is jar file?
-What is junit framework? 
+>jar this is archive wich contain files with classes. Jar has a higher functionality.
 
+What is junit framework? 
+> This is automated testing java code fragments.
 
 What is a difference between objects and primitive types in java? Name here all the primitive types. 
-
+>primitive type is one data element, the object may contain a large amount of data.
+only 8 primitive types: byte, short, char, int, long, float, double, boolean.
+1 sub-type void
 
 Good luck!
 _________________________________________________________________________________________________
