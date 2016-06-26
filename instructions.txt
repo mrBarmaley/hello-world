@@ -96,6 +96,7 @@ more detailed instruction for calculator:
  3. Create 4 methods in the same java class and fix their signatures and bodies until you don't have any compilation errors(I hope you already use some IDE so it should be properly well shown on the screen)
  4. All the method should be non-static(in comparison to main method which has a 'static' keyword in his signature) - shouldn't contain 'static'  word in signature.
  5. We can start without junit framework, but the point is start using common API as soon as possible. 
+ > added IntegralCalculator.java but local it does not work on cmd :-(
  
  I added more questions, and restructured a little bit.
  
