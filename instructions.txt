@@ -41,16 +41,63 @@ ________________________________________________________________________________
  Add the test for this calculator which will separately test all the methods. Google on how to write junit testcases. 
       
 
+What is object in java?
+> objects of the world around us in a software environment.
+
+What is method in java?
+> method describes the action. 
+for example, calculator: methods is addition, divide, subtract and multiply.
+
+What is a signature of the method?
+> signature is name&method parameters.
+
+What is a method's body?
+> In method body occurs method declaration. abstract method does not contain body.
+
+What is a return value of the methods in java?
+> after processing data, method can return data to output for further processing or other method.
+
+Provide examples of the method signatures which return different types.
+> Maybe i misunderstood your question, but docs.oracle.com says return types are not included in the method signature.
+
+What does it mean if return type of the method is void?
+>void method does not data return. if i need to data return, i must  declare return in code.
+
+What is class in java? 
+>in my understanding class, this is a set of drawings or a drawing which describes the action.
+
+What is constructor in java? 
+>Appointment constructor to create an object
 
 What is jar file?
+>jar this is archive wich contain files with classes. Jar has a higher functionality.
+
 What is junit framework? 
-What is class in java? 
-What is a return value of the methods in java? Provide examples of the method signatures which return different types. What does it mean if return type of the method is void?
+> This is automated testing java code fragments.
+
 What is a difference between objects and primitive types in java? Name here all the primitive types. 
-What is constructor in java? 
+>primitive type is one data element, the object may contain a large amount of data.
+only 8 primitive types: byte, short, char, int, long, float, double, boolean.
+1 sub-type void
 
 Good luck!
 _________________________________________________________________________________________________
+How is it going? If you are facing particular issues please let me know about them. 
+> honestly, i do not understand how to make calculator :-(
 
+Sorry, but that's not a question... Please be more specific what your problem is 
+
+more detailed instruction for calculator:
+1. Create java file IntegralCalculator.java which you will place the code of your calculator.
+2. Add the main method to this class with the following instructions:
+     IntegralCalculator calculator = new IntegralCalculator();//creating new calculator object
+     System.out.println(calculator.add(3,4));//briefly checking the addition operation... should result in 7 printed on the screen
+     ....... - add printing statements for all the methods from  original task with the same example
+ 3. Create 4 methods in the same java class and fix their signatures and bodies until you don't have any compilation errors(I hope you already use some IDE so it should be properly well shown on the screen)
+ 4. All the method should be non-static(in comparison to main method which has a 'static' keyword in his signature) - shouldn't contain 'static'  word in signature.
+ 5. We can start without junit framework, but the point is start using common API as soon as possible. 
+ 
+ I added more questions, and restructured a little bit.
+ 
 
   
