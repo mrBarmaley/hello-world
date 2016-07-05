@@ -43,6 +43,7 @@ ________________________________________________________________________________
 
 What is object in java?
 > objects of the world around us in a software environment.
+[A.P.] Objects around us are actually the objects of the real world, they can be coded and limited part of their nature will be described in java(limited because we need only to code those parts of a real life object which are interesting for us we are coding some sportsmen to use them in some game. Sportsman is actually a human so it can be described with million of different ways and different characteristics - like his religion, child deceases, date when he lost virginity etc. etc. however when we are coding the sport game - we just will need those human characteristics which are relevant to the sport we are implementing. e.g. speed, stamina, height, weight). Java objects are not limited to the real life objects - in fact there are millions of different other kinds of objects we might want to implement in our programs(e.g. ConfigurationManager - that might be some class responsible for reading/changing configurations of the application, parsers - objects that will scan some textual information and interpret that as a data) they don't have direct analogues in real life, but still we need them and they are useful in programs.
 
 What is method in java?
 > method describes the action. 
